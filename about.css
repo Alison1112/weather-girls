@@ -1,0 +1,139 @@
+
+body{background: white;
+ font-family: helvetica;
+   max-width: 1100px;
+   background-color: rgba(11,156,49,0.3)
+}
+
+h1{text-align: center;
+font-size: 22px;}
+
+h2{text-align: center;
+font-size: 17px;}
+
+p{text-align: justify;
+font-size: 15px;}
+
+.gw{color:red}
+
+.BG {
+    position: relative;
+
+}
+
+.BG::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('C1.jpeg');
+    background-size: auto;
+    background-position: cover ;
+    opacity: .4;
+    content: "";
+    z-index: -1;
+    width: 1270px;
+background-attachment: fixed;
+}
+
+
+
+div.QF p{text-align: center;
+  font-size: 17px;
+color:blue;}
+
+  div.QF small{text-align: center;
+    font-size: 15px;
+color:blue;}
+
+.nav{margin: 70px;}
+
+div.nav td {text-align: center;
+padding-left: 40px;
+}
+
+.Aboutinfo{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.OurTeam{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.SignthePledge{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.ContactUs{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.QF{float:right; width: 30%;
+  color:blue;
+border: ;}
+
+.Box{padding : 10px 20px 10px 20px;
+width: 100%;overflow: auto;
+  border: 3px solid Black;
+margin:40px 40px 40px 40px;
+background-color: rgba(200,230,201,0.6);
+text-align: center;}
+
+.ming{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;
+}
+
+.luiza{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;}
+
+.alison{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;}
+
+.jennifer{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;}
+
+div.OurTeam p {text-align: left;
+  font-size: 15px;}
+
+.Left {
+   margin-right:auto;
+}
+
+.Right{
+   margin-left:auto;
+}
+
+@media (max-width:700px){
+  body{background: red;}
+  .ming{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+  }
+
+  .luiza{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;}
+
+  .alison{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;}
+
+  .jennifer{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;}
+
+  .QF{width: 25%;}
+}
