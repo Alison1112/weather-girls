@@ -3,11 +3,50 @@
   <head>
     <title>Earth is Suffering</title>
      <link rel="stylesheet" type="text/css" href="../weather_girls/suffering.css">
-  </head>
-  <script src="/weather_girls/suffering.js"></script>
-<script type="text/javascript"></script>
+     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function() {
+     $("#back-to-top").hide();
+      $(function() {
+         $(window).scroll(function() {
+             if ($(window).scrollTop() > 100) {
+                 $("#back-to-top").fadeIn(1500);
+             }
+             else {
+                 $("#back-to-top").fadeOut(1500);
+             }
+         });
+         $("#back-to-top").click(function() {
+             $('body,html').animate({
+                 scrollTop: 0
+             },
+             500);
+             return false;
+         });
+     });
+ });
 
-  <body>
+ function myFunction() {
+   var dots = document.getElementById("dots");
+   var moreText = document.getElementById("more");
+   var btnText = document.getElementById("myBtn");
+
+   if (dots.style.display === "none") {
+     dots.style.display = "inline";
+     btnText.innerHTML = "Read more";
+     moreText.style.display = "none";
+   } else {
+     dots.style.display = "none";
+     btnText.innerHTML = "Read less";
+     moreText.style.display = "inline";
+   }
+ }
+
+ </script>
+  </head>
+
+<body id="top">
+  <p id="back-to-top"><a href="#top"><img src="back-to-top.png"</img></a></p>
     <table>
       <tr>
         <th>
@@ -19,7 +58,7 @@
         </th>
       </tr>
     </table>
-
+  <hr>
     <table>
       <tr>
         <th>
@@ -31,7 +70,9 @@
         </th>
       </tr>
     </table>
-
+<hr>
+<span id="dots"></span>
+<span id="more">
     <table>
       <tr>
         <th>
@@ -43,7 +84,7 @@
         </th>
       </tr>
     </table>
-
+ <hr>
     <table>
       <tr>
         <th>
@@ -55,8 +96,8 @@
         </th>
       </tr>
     </table>
+</span>
+<button onclick="myFunction()" id="myBtn" style="width:81%; height:20%;" ><span>Read more</span></button>
 
-
-
-  </body>
+</body>
 </html>
