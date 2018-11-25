@@ -106,20 +106,21 @@ nav {
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 20px;
+      font-size: 17px;
       position: right;
         border-radius: 50%;
         margin: 5px 2px;
         padding: 20px;
-        width: 50px;
+        width: 80px;
   }
 
 p {
   font-family: 'Crete Round', serif;
   font-weight: bold;
   color: 	#000000;
-  font-size: 15px;
+  font-size: 19px;
   margin-bottom: 20px;
+  text-align: justify;
 
 }
 
@@ -139,7 +140,7 @@ h2 {
     margin-bottom: 20px;
 }
 h3 {
-    font-size: 28px;
+    font-size: 24px;
     color: #444;
     font-weight: bold;
     text-transform: uppercase;
@@ -221,6 +222,34 @@ header nav ul li a {
     text-align: center;
 }
 
+/* primary content*//
+
+#primary-content {
+    background-color: #f8fafa;
+    padding: 60px 0;
+    text-align: center;
+
+}
+#primary-content h3 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 0 0 20px 0;
+}
+#primary-content a img {
+    margin: 20px 0;
+}
+
+/* video*/
+
+iframe {
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		width: 500px;
+	}
+
 footer {
     padding: 60px 0;
     background-color: #f8fafa;
@@ -294,4 +323,75 @@ footer {
     text-align: center;
      margin: 5px 2px;
      position: middle;
+}
+
+/* form*/
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4077A5;;
+  color: white;
+  padding: 14px 14px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
 }
