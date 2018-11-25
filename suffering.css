@@ -1,7 +1,9 @@
-img{
+img {
   height: 200px;
   width: 300px;
+  border-radius: 8px;
 }
+
 table{
   margin-left: 100px;
   margin-right: 100px;
