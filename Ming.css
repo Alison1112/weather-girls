@@ -1,0 +1,300 @@
+
+body{background: white;
+ font: normal "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+   max-width: 1100px;
+   background-color: rgba(256,256,256,0.3)
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1{text-align: center;
+font-size: 22px;}
+
+h2{text-align: center;
+font-size: 17px;}
+
+p{text-align: justify;
+font-size: 15px;}
+
+.gw{color:red}
+
+.BG {
+    position: relative;
+
+}
+
+.BG::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url('C1.jpeg');
+    background-size: auto;
+    background-position: center ;
+    opacity: .4;
+    content: "";
+    z-index: -1;
+    width: 1270px;
+background-attachment: fixed;
+}
+
+
+
+div.QF p{text-align: center;
+  font-size: 17px;
+color:blue;}
+
+  div.QF small{text-align: center;
+    font-size: 15px;
+color:blue;}
+
+.nava{margin: 70px;}
+
+div.nava td {text-align: center;
+padding-left: 40px;
+}
+
+.Aboutinfo{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.OurTeam{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.SignthePledge{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.ContactUs{float:left; width: 60%;
+border: 3px ;
+padding:10px 20px 10px 20px;}
+
+.QF{float:right; width: 30%;
+  color:blue;
+border: ;}
+
+.Box{padding : 10px 20px 10px 20px;
+width: 100%;overflow: auto;
+  border: 3px solid Black;
+margin:40px 40px 40px 40px;
+background-color: rgba(200,230,205,0.6);
+text-align: center;}
+
+.ming{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;
+}
+
+.luiza{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;}
+
+.alison{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;}
+
+.jennifer{border: 4px solid grey;
+border-radius: 20px;
+height: 200px;
+width: 200px;}
+
+div.OurTeam p {text-align: left;
+  font-size: 15px;}
+
+.Left {
+   margin-right:auto;
+}
+
+.Right{
+   margin-left:auto;
+}
+
+/********************/
+
+
+
+nav {
+}
+/*we'll target a specific tab*/
+  nav a {
+ }
+/*we're going to use a css pseudo-class to change the background color when we hover over a tab */
+  nav a:hover {
+  }
+/*we're going to target the logo for some specific styles 'cause the logo is super special*/
+  #logo {
+  }
+
+  nav {
+  width: 100%; //width should be a percentage for responsiveness
+  height: 38px; //height should be px. Adjust to your liking
+  background-color:#0080ff;
+}
+  nav a {
+ }
+  nav a:hover {
+  }
+  #logo {
+  }
+
+  nav {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+  nav a {
+    display: block;
+
+ }
+  nav a:hover {
+  }
+  #logo {
+  }
+
+  nav a {
+      display: block;
+      float: left;
+  /*We're just setting up fonts settings here*/
+      font-family: sans-serif;
+      font-size: 15px;
+      color: white;
+  /*Box Method Test AKA handicap*/
+      background-color: 	#79B9E1;
+      border: 1px solid #000;
+
+     /*Padding Our Box*/
+      padding-top: 20px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+
+      text-decoration: none;
+  }
+
+  #logo {
+ /*font*/
+  font-family: 'Hind', sans-serif;
+  font-size: 30px;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px 2px #c4c4c4;
+/*box*/
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-right: 10px;
+  margin-top: -20px;
+  }
+/********************/
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+  footer {
+      padding: 60px 0;
+      background-color: #f8fafa;
+      margin-left:120px;
+  }
+  #footer-info {
+      width: 380px;
+      float: left;
+      margin-top: 10px;
+  }
+  #footer-links {
+      width: 520px;
+      float: right;
+  }
+  #footer-links ul {
+      width: 150px;
+      float: left;
+      margin-left: 20px;
+  }
+  #footer-links ul li {
+      margin: 10px 0;
+  }
+
+  /*Social media buttons*/
+
+  /* Style all font awesome icons */
+  .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+      background: #3B5998;
+      color: white;
+  }
+
+  /* Twitter */
+  .fa-twitter {
+      background: #55ACEE;
+      color: white;
+  }
+  /* Youtube */
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  /* Instagram*/
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa {
+      padding: 20px;
+      font-size: 60px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      text-align: center;
+       margin: 5px 2px;
+       position: middle;
+  }
+
+
+@media (max-width:700px){
+
+  .ming{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+  }
+
+  .luiza{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;}
+
+  .alison{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;}
+
+  .jennifer{border: 4px solid grey;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;}
+
+  .QF{width: 25%;}
+}
