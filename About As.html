@@ -2,11 +2,20 @@
 
 <html>
   <head>
-  <title>About Us</title>
-  <link rel="stylesheet" type"text/css" href="about.css">
-
+  <title>ABOUT US | SooHot</title>
+          <link href="bootstrap.min.ming.css" rel="stylesheet">
+            <link rel="stylesheet" type"text/css" href="Ming.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+
+function myFunction() {
+    alert("Thank you for submitting!                                                    We hope the earth can be better because of YOU and Me. ");
+window.location.reload();
+
+}
+
 $(document).ready(function(){
     $("#hide1").click(function(){
         $("#small1").hide();
@@ -40,12 +49,25 @@ $(document).ready(function(){
 
 
 </script>
-  </head>
+<head>
+</head>
   <body>
+
+<header>
+<nav>
+  <a id="logo" href="#">Global Warming</a>
+  <a href="#">HOME </a>
+  <a href="About As.html">ABOUT US</a>
+  <a href="#">EARTH IS SUFFERING</a>
+  <a href="#">CHANGE IT </a>
+</nav>
+
+<!------------------------------------------>
+</header>
     <div class="BG">
 <a name="top"></a>
 
-    <div class='nav'>
+    <div class='nava'>
       <table width=100% >
         <tr><td><a href="#about"><span style="background-color: #e0f7fa">About</span></a></td>
               <td><a href="#OurTeam"><span style="background-color: #e0f7fa">Our Team</span></a></td>
@@ -68,9 +90,10 @@ $(document).ready(function(){
 
 
       <div class="QF">
-         <button id="show1" type="button"> Quick fact</button>
-         <button id="hide1" type="button"> Hide</button> <br>
-           <small><span id="small1">2016 was the hottest year on record since 1880 - NASA</span></small>
+        </br>
+         <button id="show1" class="btn btn-warning"> Quick fact</button> </br>
+           <small><span id="small1">2016 was the hottest year on record since 1880 - NASA</span></small>  </br>
+          <button id="hide1" type="button" class="btn btn-default btn-xs"> Hide</button>
          </div>
       </div>
 
@@ -119,9 +142,10 @@ $(document).ready(function(){
 
 
       <div class="QF">
-        <button id="show2" type="button"> Quick fact</button>
-        <button id="hide2" type="button"> Hide</button> <br>
-      <small><span id="small2">The average global temperature was 0.99 degrees Celsius warmer than the mid-20th century mean in 2016 - National Oceanic and Atmospheric Administration</span></small>
+        </br>
+        <button id="show2" type="button" class="btn btn-warning"> Quick fact</button> </br>
+      <small><span id="small2">The average global temperature was 0.99 degrees Celsius warmer than the mid-20th century mean in 2016 - National Oceanic and Atmospheric Administration</span></small></br>
+      <button id="hide2" type="button" class="btn btn-default btn-xs"> Hide</button>
       </div>
   </div>
 
@@ -135,23 +159,24 @@ $(document).ready(function(){
         <h2> <font color="purple">YES! I promise to avoid doing any behaviours that will intensify the global warming. </font></h2>
 
 
-        <div class="input-group input-group-lg" style="text-align:center">
+        <div class="input-group " style="text-align:center">
           <input type="text" class="form-control" placeholder="Your Name" aria-describedby="Name">
         </div>
 
-        <div class="input-group input-group-lg" style="text-align:center">
+        <div class="input-group " style="text-align:center">
           <input type="text" class="form-control" placeholder="Your Email Address" aria-describedby="Email">
           <span class="input-group-btn">
-            <button class="btn btn-group btn-group-lg" type="button"> I Pledge!</button>
+            <button class="btn btn-group" type="button" onclick="myFunction()"> I Pledge!</button>
         </div>
 </div>
 
 
 
       <div class="QF">
-        <button id="show3"  type="button"> Quick fact</button>
-        <button id="hide3" type="button"> Hide</button> <br>
-        <small><span id="small3">97% of researchers agree that trends observed over the last past century are probably due to human activity - YouGov research</span></small>
+      </br>
+      <button id="show3" class="btn btn-warning"> Quick fact</button> </br>
+        <small><span id="small3">97% of researchers agree that trends observed over the last past century are probably due to human activity - YouGov research</span></small></br>
+                <button id="hide3" type="button" class="btn btn-default btn-xs"> Hide</button>
       </div>
   </div>
 
@@ -162,18 +187,72 @@ $(document).ready(function(){
     <div class="Box">
       <h1>Contact Us</h1>
       <div class="ContactUs">
-        <p a herf>Facebook
-        Twitter
-      </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+
+        <form action="/html/codes/html-comment-box-code-action.cfm" method="get">
+        <center><br />Tell us your comment !<br /></center>
+        <textarea rows="20" cols="60"></textarea><br />
+        <button class="btn btn-group btn-group-lg" type="button" onclick="myFunction()" > Submit</button>
+        </form>
+
+
+
+      </div>
+    </br></br>
       <div class="QF">
-        <button id="show4" class="btn-QF" type="button"> Quick fact</button>
-        <button id="hide4" class="btn-QF" type="button"> Hide</button> <br>
-        <small><span id="small4">Sea levels are currently rising at their fastest rate for more than 2,000 years and the current rate of change is 3.4mm a year - researchers at Rutgers University</span></small>
+        <button id="show4" type="button"  class="btn btn-warning"> Quick fact</button> </br>
+        <small><span id="small4">Sea levels are currently rising at their fastest rate for more than 2,000 years and the current rate of change is 3.4mm a year - researchers at Rutgers University</span></small></br>
+        <button id="hide4" type="button" class="btn btn-default btn-xs"> Hide</button>
       </div>
   </div>
 
 <p style="text-align:Right"> <a href='#top'>Back to Top</a> </p>
 </div>
+<!------------------------------------------>
+
+<footer>
+<div class="wrapper">
+<div id="footer-info">
+    <p>Copyright 2018 WeatherGirls. All rights reserved.</p>
+    <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+</div>
+<div id="footer-links">
+    <ul>
+        <h5>Weather Girls</h5>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Mission Statement</a></li>
+        <li><a href="#">What We Do</a></li>
+        <li><a href="#">Subscribe!</a></li>
+    </ul>
+</div>
+<div class="clear"></div>
+</div>
+
+
+<div id="cta">
+<div class="wrapper">
+<h3>Heard Enough? We don't think so either </h3>
+  <h3> So follow us on Social Media:</h3>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<br><br><br>
+<a href="#" class="button-2">Go Up</a>
+
+</div>
+</div>
+
+</footer>
   </body>
 </html>
